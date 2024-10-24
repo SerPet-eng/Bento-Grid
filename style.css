@@ -1,0 +1,78 @@
+:root {
+  --clr-primary-purple-500: hsl(256, 67%, 59%);
+  --clr-primary-purple-100: hsl(254, 88%, 90%);
+  --clr-primary-yellow-500: hsl(39, 100%, 71%);
+  --clr-primary-yellow-100: hsl(31, 66%, 93%);
+  --clr-neutral-500: hsl(0, 0%, 7%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+
+  --fw-400: 400;
+  --fw-500: 500;
+}
+
+body {
+  font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7,
+.box-8 {
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.box-1 {
+  background-color: var(--clr-primary-purple-500);
+  font-weight: var(--fw-400);
+  color: var(--clr-neutral-100);
+}
+
+.box-2 {
+  background-color: var(--clr-neutral-100);
+  /*! Not done yet !*/
+}
+
+.box-3 {
+  background-color: var(--clr-primary-yellow-500);
+  color: var(--clr-neutral-500);
+}
+
+.box-4 {
+  background-color: var(--clr-primary-purple-100);
+}
+
+.box-5 {
+  background-color: var(--clr-primary-purple-500);
+  color: var(--clr-neutral-100);
+}
+
+.box-6 {
+  background-color: var(--clr-neutral-100);
+}
+
+.box-7 {
+  background-color: var(--clr-primary-yellow-100);
+  color: var(--clr-neutral-500);
+}
+
+.box-7-verb {
+  color: var(--clr-primary-purple-500);
+}
+
+.box-8 {
+  background-color: var(--clr-primary-yellow-500);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
